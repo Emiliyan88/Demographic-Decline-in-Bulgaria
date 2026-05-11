@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("data/nsi_population.csv")
+df = pd.read_csv("data/1.1.1.1. Population by sex_trend.xlsx")
 
 st.title("🇧🇬 Demographic Decline Dashboard")
 

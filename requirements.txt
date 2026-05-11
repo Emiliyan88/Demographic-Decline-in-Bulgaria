@@ -17,16 +17,3 @@ scipy
 # statsmodels>=0.14.0
 # scipy>=1.10.0
 
-# report.py
-from reportlab.platypus import SimpleDocTemplate, Paragraph
-from reportlab.lib.styles import getSampleStyleSheet
-
-# istm_model.py
-import numpy as np
-import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
-
-# app.py
-import streamlit as st
-import pandas as pd
